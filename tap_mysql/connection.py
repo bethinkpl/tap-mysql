@@ -10,8 +10,8 @@ import ssl
 
 LOGGER = singer.get_logger()
 
-CONNECT_TIMEOUT_SECONDS = 30
-READ_TIMEOUT_SECONDS = 3600
+CONNECT_TIMEOUT_SECONDS = 300
+READ_TIMEOUT_SECONDS = 10_800 #3h
 
 # We need to hold onto this for self-signed SSL
 match_hostname = ssl.match_hostname
