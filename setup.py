@@ -13,9 +13,9 @@ setup(name='tap-mysql',
           'attrs==16.3.0',
           'pendulum==1.2.0',
           'singer-python==5.9.0',
-          'PyMySQL==0.9.3',
+          'PyMySQL==1.0.2',
           'backoff==1.8.0',
-          'mysql-replication==0.22',
+          'mysql-replication==0.28',
       ],
       extras_require={
           'dev': ['pylint==2.8.3']
